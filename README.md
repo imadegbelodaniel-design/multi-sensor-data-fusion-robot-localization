@@ -40,14 +40,19 @@ Implemented an EKF for a simulated mobile robot with position, velocity, and hea
 ## 4. Selected Simulation Results
 
 | Metric | Reported Result |
-|---|---:|
-| 1D GPS position RMSE | 1.94 m |
-| 1D fused position RMSE | 0.32 m |
-| 2D GPS position RMSE | 1.48 m |
-| 2D fused position RMSE | 0.17 m |
-| EKF GPS position RMSE | 2.10 m |
-| EKF fused position RMSE | 0.58 m |
+## 4. Selected Simulation Results
 
+| Experiment | GPS Position RMSE | Fused Position RMSE | Improvement |
+|---|---:|---:|---:|
+| 1D Kalman Filter | 1.943 m | 0.2819 m | 85.49% |
+| 2D Kalman Filter | 2.0866 m | 0.2599 m | 87.55% |
+| Extended Kalman Filter | 2.1283 m | 0.3325 m | 84.37% |
+
+Additional EKF results:
+- Fused velocity RMSE: 0.0488 m/s
+- Heading RMSE: 0.0704 rad (4.04°)
+
+These results are from simulated experiments and have not been validated using physical robot hardware.
 **Note:** These results are from separate simulation experiments, not physical robot tests. Performance depends on the assumptions, sensor noise settings, and implementation of each experiment.
 
 ## 5. Tools and Technologies
