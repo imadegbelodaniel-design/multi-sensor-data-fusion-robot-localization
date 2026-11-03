@@ -49,7 +49,6 @@ Additional EKF results:
 - Fused velocity RMSE: 0.0488 m/s
 - Heading RMSE: 0.0704 rad (4.04°)
 
-These results are from simulated experiments and have not been validated using physical robot hardware.
 **Note:** These results are from separate simulation experiments, not physical robot tests. Performance depends on the assumptions, sensor noise settings, and implementation of each experiment.
 
 ## 5. Tools and Technologies
