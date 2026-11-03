@@ -37,7 +37,6 @@ Explored rotation matrices and transformations between body-frame and world-fram
 
 Implemented an EKF for a simulated mobile robot with position, velocity, and heading states, using GPS, wheel-speed, accelerometer, and gyroscope measurements.
 
-
 ## 4. Selected Simulation Results
 
 | Experiment | GPS Position RMSE | Fused Position RMSE | Improvement |
